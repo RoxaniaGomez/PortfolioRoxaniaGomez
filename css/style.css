@@ -60,3 +60,51 @@ ul li img{padding: 0 1vh 0 1vh;}
    
   }
   
+
+
+  @media screen and (max-width: 767px){
+   
+    .banner{
+        padding: 10px 0 0 0;
+        display: block;
+      text-align: center;
+    }
+    .listaComp p{
+        text-align: center;
+    }
+    .cajitaDeContacto{
+      display:block;  
+      text-align: center;
+     
+    }
+    div{padding:0 0 20px 0 ;}
+    
+
+ }
+
+ @media all and (min-width:768px) and (max-width:991px){
+  
+   
+    main{
+    width:100%;
+      padding: 0;
+      margin: 0;
+    }
+  div{ padding: 0px 0 25px 0;}
+    .banner{
+        width: 100%;
+        display: block;
+      text-align: center;
+      padding-top: 25px;
+      padding-bottom: 0px;
+    }
+    .listaComp{
+        text-align: center;
+        padding: 25px 0 20px 0;
+    }
+    
+    .cajitaDeContacto{
+        padding: 20px 0 0 0;
+    }
+  
+ }

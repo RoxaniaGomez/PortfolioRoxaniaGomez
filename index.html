@@ -18,14 +18,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
-<body class=" container">
+<body>
 
     <header class="sticky-top bg-dark text-center justify-content-center p-1">
         <h1 class="animate__animated animate__shakeY text-light">
             Hola soy <strong>Roxania Gomez </strong> y soy <strong>programadora Backend
-
-
-
             </strong></h1>
 
 
@@ -33,8 +30,9 @@
     </header>
     <main>
         <div class="banner container">
-            <img src="./img/foto.jpeg" class="rounded-circle" id="inicio" width="250px" height="auto" alt="">
-
+            <div>
+                <img src="./img/foto.jpeg" class="rounded-circle" id="inicio" width="250px" height="auto" alt="">
+            </div>
             <article id="about">
                 <h3 class=" h4 text-center">Sobre mi</h3>
                 <br>
@@ -50,24 +48,25 @@
 
         </div>
 
+        <div class=" container">
+            <section class="listaComp">
+                <p class="h3 pb-md-4">Competencias</p>
+                <ul class="lista list-group">
+                    <li><img src="./img/icon/java.png" alt="Java"> Java: Programacion orientada a objetos</li>
+                    <li><img src="./img/icon/mysql.png" alt="MySQL"> MySQL: Base de Datos</li>
+                    <li><img src="./img/icon/spring-boot.png" alt="SpringBoot"> SpringBoot: Programacion
+                        backend en
+                        java</li>
+                    <li><img src="./img/icon/bootstrap.png" alt="Booststrap5"> Booststrap 5: Preparacion del
+                        Marco
+                        de
+                        trabajo HTML, CSS y JavaScript</li>
+                    <li><img src="./img/icon/react.png" alt=""> React: Programacion Frontend</li>
 
-        <section class="listaComp">
-            <p class="h3">Competencias</p>
-            <ul class="lista list-group">
-                <li><img src="./img/icon/java.png" alt="Java"> Java: Programacion orientada a objetos</li>
-                <li><img src="./img/icon/mysql.png" alt="MySQL"> MySQL: Base de Datos</li>
-                <li><img src="./img/icon/spring-boot.png" alt="SpringBoot"> SpringBoot: Programacion
-                    backend en
-                    java</li>
-                <li><img src="./img/icon/bootstrap.png" alt="Booststrap5"> Booststrap 5: Preparacion del
-                    Marco
-                    de
-                    trabajo HTML, CSS y JavaScript</li>
-                <li><img src="./img/icon/react.png" alt=""> React: Programacion Frontend</li>
-
-            </ul>
-        </section>
-        <div class="cajitaDeContacto mx-auto">
+                </ul>
+            </section>
+        </div>
+        <div class="cajitaDeContacto p-md-4">
             <p class="h5 ">ver mis proyectos en Github</p><img src="./img/icon/github.png" alt="enlace a mi github"></a>
             <p class="h5">buscame por linkedin</p>
             <a href="http://www.linkedin.com/in/roxania-gomez" target="_blank" rel="noopener noreferrer"><img
