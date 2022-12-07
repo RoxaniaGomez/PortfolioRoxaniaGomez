@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    ;
+}
+body{background: rgb(26,83,92);
+    background: -moz-linear-gradient(-45deg,  rgba(26,83,92,1) 0%, rgba(63, 163, 156, 0.62) 40%, rgba(222, 50, 50, 0.501) 100%);
+    background: -webkit-linear-gradient(-45deg,  rgba(26,83,92,1) 0%, rgba(63, 163, 156, 0.421) 40%, rgba(222, 50, 50, 0.52) 100%);
+    background: linear-gradient(135deg,  rgba(26, 83, 92, 0.468) 0%, rgba(63, 163, 156, 0.463) 40%, rgba(222, 50, 50, 0.406) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a535c', endColorstr='#ff6b6b',GradientType=1 );
+    }
+   
+    main{
+        min-height:calc(100vh - 60px);}
+
+.banner{
+    display: flex;
+    padding: 5vh 0 5vh 0;
+    align-items:center;
+    text-align: start;
+   
+}
+.listaComp{
+  padding: 0 0 10px 0;
+}
+.lista li{
+    border: 1px solid rgba(0, 0, 0, 0.332) ;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.099);
+    
+}
+ul li img{padding: 0 1vh 0 1vh;}
+
+.texto{
+    padding: 0 25px 0 25px;
+}
+.cajitaDeContacto{
+    display: flex;
+     justify-content:space-between;
+    padding: 15px;
+    
+}
+.cajitaDeContacto img:hover{
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+.cajitaDeContacto p{
+   
+    padding: 15px 0 0 0;
+}
+#contact{
+    display: flex;
+    
+}
+  h1{width: 100%;}
+
+  footer{
+    height: 50px;
+   
+  }
+  
