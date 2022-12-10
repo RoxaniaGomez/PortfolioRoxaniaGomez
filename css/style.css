@@ -22,7 +22,7 @@ body{background: rgb(26,83,92);
    
 }
 .listaComp{
-  padding: 0 0 10px 0;
+  padding: 10px 0 10px 0;
 }
 .lista li{
     border: 1px solid rgba(0, 0, 0, 0.332) ;
@@ -65,12 +65,15 @@ ul li img{padding: 0 1vh 0 1vh;}
   @media screen and (max-width: 767px){
    
     .banner{
-        padding: 10px 0 0 0;
+        padding: 15px 0 0 0;
         display: block;
       text-align: center;
     }
     .listaComp p{
         text-align: center;
+    }
+    .listaComp{
+      padding: 10px 0 10px 0;
     }
     .cajitaDeContacto{
       display:block;  
@@ -78,7 +81,7 @@ ul li img{padding: 0 1vh 0 1vh;}
      
     }
     div{padding:0 0 20px 0 ;}
-    
+   
 
  }
 
