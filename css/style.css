@@ -4,6 +4,7 @@
 
     ;
 }
+
 body{background: rgb(26,83,92);
     background: -moz-linear-gradient(-45deg,  rgba(26,83,92,1) 0%, rgba(63, 163, 156, 0.62) 40%, rgba(222, 50, 50, 0.501) 100%);
     background: -webkit-linear-gradient(-45deg,  rgba(26,83,92,1) 0%, rgba(63, 163, 156, 0.421) 40%, rgba(222, 50, 50, 0.52) 100%);
@@ -13,7 +14,9 @@ body{background: rgb(26,83,92);
    
     main{
         min-height:calc(100vh - 60px);}
-
+h1{
+  text-shadow: 0 6px 6px rgba(81, 152, 163, 0.544);
+}
 .banner{
     display: flex;
     padding: 5vh 0 5vh 0;
@@ -53,7 +56,7 @@ ul li img{padding: 0 1vh 0 1vh;}
     display: flex;
     
 }
-  h1{width: 100%;}
+  
 
   footer{
     height: 50px;
